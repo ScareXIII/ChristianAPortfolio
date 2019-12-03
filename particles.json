@@ -1,0 +1,34 @@
+{
+    "particles":{
+        "number":{
+            "value":400
+        },
+        "color":{
+            "value":"#cae9f9"
+        },
+        "shape":{
+
+            "type": "polygon",
+            "stroke":{
+                "width":1,
+                "color":"#cae9f9"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true,
+            "anim":{
+                "enable":true,
+                "speed":1
+            }
+        },
+        "size":{
+            "value":4
+        },
+        "line_linked":{
+            "enable": true,
+            "distance": 120,
+            "color": "#cae9f9"
+        }
+    }
+}
