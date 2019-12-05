@@ -49,6 +49,11 @@ nav {
     min-height: 8vh;
     font-family: 'Quicksand', sans-serif;
     background-color: #362449;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 90%;
 }
 
 .logo {
@@ -107,7 +112,7 @@ nav {
         width: 30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        z-index: 9999;
+        z-index: 9000;
     }
 
     .nav-links li {
@@ -148,6 +153,7 @@ nav {
 }
 
 #particles-js {
+    padding-top: 64px;
     background: #180520;
     height: 400px;
 }
@@ -164,6 +170,8 @@ nav {
 
 .buttons button {
     font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
     width: 175px;
     height: 60px;
     border: 2px solid #cae9f9;
@@ -171,4 +179,241 @@ nav {
     background-color: #362449;
     opacity: 75%;
     color: #cae9f9;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.about {
+    height: 425px;
+    background-image: linear-gradient(#180520, #362449, #724ca3);
+}
+
+.about h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #cae9f9;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 150px;
+}
+
+.about img {
+    border: 2px solid #cae9f9;
+    border-radius: 25px;
+    margin-top: 25px;
+    float: right;
+    margin-right: 25px;
+    opacity: 75%;
+}
+
+.about p {
+    padding-top: 30px;
+    padding-right: 160px;
+    padding-left: 20px;
+    color: #cae9f9;
+    font-size: 19px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    opacity: 75%;
+}
+
+.skill1 {
+    display: inline-flex;
+    align-self: center;
+}
+
+.skill1 svg {
+    padding-top: 19px;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
+.skill1 h1 {
+    padding-left: 25px;
+    padding-top: 26px;
+}
+
+.skill2 {
+    display: inline-flex;
+    align-self: center;
+}
+
+.skill2 svg {
+    padding-top: 19px;
+    padding-left: 25px;
+}
+
+.skill2 h1 {
+    padding-left: 25px;
+    padding-top: 26px;
+}
+
+.skill3 {
+    display: inline-flex;
+    align-self: center;
+}
+
+.skill3 svg {
+    padding-top: 19px;
+    padding-left: 25px;
+}
+
+.skill3 h1 {
+    padding-left: 25px;
+    padding-top: 29px;
+}
+
+.projects {
+    height: 750px;
+    background-image: linear-gradient(#724ca3, #362449, #180520);
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #cae9f9;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 150px;
+}
+
+.projects img {
+    padding-left: 105px;
+    padding-top: 25px;
+    opacity: 75%;
+}
+
+.project1 {
+    position: relative;
+}
+
+.project1 button {
+    position: absolute;
+    top: 115px;
+    right: 79px;
+    background-color: #362449;
+    border: 2px solid #cae9f9;
+    border-radius: 5px;
+    color: #cae9f9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.project2 {
+    position: relative;
+}
+
+.project2 button {
+    position: absolute;
+    top: 115px;
+    right: 115px;
+    background-color: #362449;
+    border: 1px solid #cae9f9;
+    border-radius: 5px;
+    color: #cae9f9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.project3 {
+    position: relative;
+}
+
+.project3 button {
+    position: absolute;
+    top: 115px;
+    right: 121px;
+    background-color: #362449;
+    border: 1px solid #cae9f9;
+    border-radius: 5px;
+    color: #cae9f9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.contact {
+    height: 400px;
+    background-color: #180520;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #cae9f9;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 120px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+form input {
+    width: 150px;
+    margin-top: 10px;
+    background-color: #362449;
+    color: #cae9f9;
+    border: 2px solid #cae9f9;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: #362449;
+    border: 2px solid #cae9f9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: px;
+    height: 100px;
+    width: 250px;
+}
+
+#submitButton {
+    background-color: #362449;
+    color: #cae9f9;
+    border: 2px solid #cae9f9;
+    width: 100px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cae9f9;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #cae9f9;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #cae9f9;
+}
+
+.contact h2 {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #cae9f9;
+    letter-spacing: 3px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 25px;
+}
+
+.social {
+    padding-left: 25px;
+    padding-top: 20px;
 }
