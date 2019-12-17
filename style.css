@@ -187,6 +187,11 @@ nav {
     font-family: 'Quicksand', sans-serif;
 }
 
+.buttons button:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
 .about {
     height: 425px;
     background-image: linear-gradient(#180520, #362449, #724ca3);
@@ -308,6 +313,12 @@ nav {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
+    opacity: 75%;
+}
+
+.project1 button:hover {
+    cursor: pointer;
+    opacity: 100%;
 }
 
 .project2 {
@@ -326,6 +337,12 @@ nav {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
+    opacity: 75%;
+}
+
+.project2 button:hover {
+    cursor: pointer;
+    opacity: 100%;
 }
 
 .project3 {
@@ -344,6 +361,12 @@ nav {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
+    opacity: 75%
+}
+
+.project3 button:hover {
+    cursor: pointer;
+    opacity: 100%;
 }
 
 .contact {
@@ -387,6 +410,7 @@ textarea {
     margin-left: px;
     height: 100px;
     width: 250px;
+    color: #cae9f9;
 }
 
 #submitButton {
@@ -422,4 +446,337 @@ textarea {
 .social {
     padding-left: 25px;
     padding-top: 20px;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 360px) {
+    .project1 img {
+        margin-left: 85px;
+    }
+
+    .project1 button {
+        right: 85px;
+    }
+
+    .project2 img {
+        margin-left: 85px;
+    }
+
+    .project2 button {
+        right: 120px;
+    }
+
+    .project3 img {
+        margin-left: 85px;
+    }
+
+    .project3 button {
+        right: 129px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .project1 button {
+        right: 80px;
+    }
+
+    .project3 button {
+        right: 123px;
+    }
+}
+
+@media only screen and (min-width: 411px) {
+    .about p {
+        padding-top: 45px;
+    }
+
+    .skill3 svg {
+        padding-right: 15px;
+    }
+
+    .project1 img {
+        padding-left: 25px;
+    }
+
+    .project1 button {
+        right: 110px;
+    }
+
+    .project2 img {
+        padding-left: 25px;
+    }
+
+    .project2 button {
+        right: 144px;
+    }
+
+    .project3 img {
+        padding-left: 25px;
+    }
+
+    .project3 button {
+        right: 154px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .burger {
+        padding-left: 300px;
+    }
+
+    .buttons button {
+        height: 80px;
+        width: 225px;
+        font-size: 25px;
+    }
+
+    .about {
+        height: 600px;
+    }
+
+    .about h1 {
+        padding-top: 50px;
+        padding-left: 340px;
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 25px;
+    }
+
+    .about img {
+        height: 250px;
+        width: 230px;
+        margin-top: 100px;
+    }
+
+    .skill1 svg {
+        padding-top: 50px;
+    }
+
+    .skill1 h1 {
+        padding-left: 100px;
+    }
+
+    .skill2 svg {
+        padding-top: 50px;
+    }
+
+    .skill2 h1 {
+        padding-left: 100px;
+    }
+
+    .skill3 svg {
+        padding-top: 50px;
+    }
+
+    .skill3 h1 {
+        padding-left: 100px;
+    }
+
+    .projects {
+        height: 1050px;
+    }
+
+    .projects h1 {
+        font-size: 40px;
+        padding-left: 300px;
+        padding-top: 50px;
+    }
+
+    .project1 img {
+        height: 250px;
+        width: 250px;
+        padding-top: 25px;
+        padding-left: 175px;
+    }
+
+    .project2 img {
+        height: 250px;
+        width: 250px;
+        padding-top: 25px;
+        padding-left: 175px;
+    }
+
+    .project3 img {
+        height: 250px;
+        width: 250px;
+        padding-top: 25px;
+        padding-left: 175px;
+    }
+
+    .project1 button {
+        top: 165px;
+        right: 275px;
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .project2 button {
+        top: 165px;
+        right: 320px;
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .project3 button {
+        top: 165px;
+        right: 329px;
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .contact {
+        height: 675px;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+        padding-left: 262px;
+        padding-top: 50px;
+    }
+
+    .contact form {
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+
+    form input {
+        width: 200px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    textarea {
+        height: 150px;
+        width: 300px;
+        font-size: 18px;
+    }
+    
+    .contact h2 {
+        font-size: 25px;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+
+    .social {
+        padding-top: 50px;
+        width: 60px;
+        height: 60px;
+        margin-left: 75px;
+    }
+
+    .nav-links a {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .buttons {
+        flex-direction: row;
+    }
+
+    .nav-links {
+        align-items: center;
+        width: 900px;
+        height: 70px;
+    }
+
+    .about h1 {
+        padding-left: 625px;
+    }
+
+    .about p {
+        padding-left: 200px;
+        padding-top: 125px;
+        padding-right: 400px;
+    }
+
+    .about img {
+        margin-right: 100px;
+        height: 350px;
+        width: 300px;
+    }
+
+    .skill1 h1 {
+        padding-left: 200px;
+    }
+
+    .skill2 h1 {
+        padding-left: 200px;
+    }
+
+    .skill2 svg {
+        padding-right: 200px;
+    }
+
+    .skill3 h1 {
+        padding-left: 200px;
+    }
+
+    .projects h1 {
+        padding-left: 625px;
+    }
+
+    .project1 {
+        padding-left: 100px;
+    }
+
+    .project2 {
+        padding-left: 550px;
+    }
+
+    .project3 {
+        padding-left: 100px;
+    }
+
+    .projectBtn1 {
+        margin-right: 500px;
+    }
+
+    .projectBtn2 {
+        margin-right: 50px;
+    }
+
+    .projectBtn3 {
+        margin-right: 498px;
+    }
+
+    .contact {
+        height: 750px;
+    }
+
+    .contact h1 {
+        padding-left: 600px;
+    }
+
+    .contact form {
+        padding-top: 50px;
+        padding-left: 350px;
+    }
+
+    form input {
+        width: 210px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    textarea {
+        height: 200px;
+        width: 400px;
+        font-size: 18px;
+    }
+    
+    .contact h2 {
+        font-size: 25px;
+        padding-left: 350px;
+        padding-top: 50px;
+    }
+
+    .social {
+        margin-left: 200px;
+    }
 }
