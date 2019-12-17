@@ -274,7 +274,7 @@ nav {
 }
 
 .projects {
-    height: 750px;
+    height: 1000px;
     background-image: linear-gradient(#724ca3, #362449, #180520);
     display: flex;
     flex-direction: column;
@@ -365,6 +365,30 @@ nav {
 }
 
 .project3 button:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.project4 {
+    position: relative;
+}
+
+.project4 button {
+    position: absolute;
+    top: 115px;
+    right: 79px;
+    background-color: #362449;
+    border: 2px solid #cae9f9;
+    border-radius: 5px;
+    color: #cae9f9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    opacity: 75%;
+}
+
+.project4 button:hover {
     cursor: pointer;
     opacity: 100%;
 }
@@ -476,15 +500,31 @@ textarea {
     .project3 button {
         right: 129px;
     }
+
+    .project4 img {
+        margin-left: 85px;
+    }
+
+    .project4 button {
+        right: 129px;
+    }
 }
 
 @media only screen and (min-width: 375px) {
     .project1 button {
+        right: 77px;
+    }
+
+    .project2 button {
         right: 80px;
     }
 
     .project3 button {
-        right: 123px;
+        right: 142px;
+    }
+
+    .project4 button {
+        right: 100px;
     }
 }
 
@@ -519,6 +559,14 @@ textarea {
 
     .project3 button {
         right: 154px;
+    }
+
+    .project4 img {
+        padding-left: 25px;
+    }
+
+    .project4 button {
+        right: 110px;
     }
 }
 
@@ -608,6 +656,13 @@ textarea {
         padding-left: 175px;
     }
 
+    .project4 img {
+        height: 250px;
+        width: 250px;
+        padding-top: 25px;
+        padding-left: 175px;
+    }
+
     .project1 button {
         top: 165px;
         right: 275px;
@@ -625,6 +680,13 @@ textarea {
     .project3 button {
         top: 165px;
         right: 329px;
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .project4 button {
+        top: 165px;
+        right: 275px;
         font-size: 25px;
         padding: 5px;
     }
@@ -730,6 +792,10 @@ textarea {
     }
 
     .project3 {
+        padding-left: 100px;
+    }
+
+    .project4 {
         padding-left: 100px;
     }
 
